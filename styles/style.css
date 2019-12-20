@@ -1,0 +1,215 @@
+html {
+    background-image: linear-gradient(to right, #1769CC, #0B38A5);
+}
+
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    justify-content:center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .wrapper > * {
+    flex: 1 100%;
+  }
+  
+  .header {
+    background: none;
+    height: 104px;
+  }
+  
+  .footer {
+    background: none;
+  }
+  
+  .main {
+    text-align: left;
+    background: none;
+    padding-right: 5%;
+  }
+
+  .form {
+    background: white;
+    flex: 0 0 504px;
+    height: 596px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    flex: 1
+  }
+
+.second {
+    background-color: none;
+    flex: 55%;
+    flex-direction: row; 
+    text-align: left;
+    padding-left: 31px; 
+}
+
+.third {
+    background-color: none;
+    flex: 45%;
+    flex-direction: row;
+    text-align: left;
+    padding-right: 11px;
+}
+
+
+  
+  @media all and (min-width: 800px) {
+
+  }
+  
+  
+
+  @media all and (min-width: 1000px) {
+    .main    { flex: 3 0px; }
+    .main    { order: 1; }
+    .form {order: 2; }
+    .footer  { order: 3; }
+  }
+
+  h1 {
+    font-family: 'Flama Basic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: white;
+
+}
+
+h2 {
+    font-family: 'Flama Basic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: white;
+}
+
+h3 {
+    font-family: 'Flama Basic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+h4 {
+    font-family: 'Flama Basic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+button {
+    background-color: #F88701;
+    border: unset;
+    color: white;
+    border-radius: 5px;
+    width: 162px;
+    height: 42px;
+    font-family: 'Flama Basic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+}
+  
+  img {
+    position: absolute;
+    left: 18px;
+    top:29px;
+    height: 39px;
+}
+
+}
+
+div>div> {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    padding-top: 11px;
+    }
+
+.link {
+    font-family: 'Flama Basic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 400px;
+    padding-bottom: 11px;
+
+}
+
+ul li {
+    /* Bullet color */
+    color: #D0DBE5;
+    list-style-type: disc;
+}
+
+ul li span {
+    /* Text color */
+    font-family: 'Flama Basic';
+    color: #858585;
+    font-size: 12px;
+}
+
+p {
+    font-size: 14px; /* This is the pixel size */
+    font-family: 'Flama Basic'; /* This is the font family */
+}
+
+input[type="password"] {
+    width: 230px;
+    height: 35px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border: 1px solid #9AA5AF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Flama Basic';
+    color: #333333;
+    font-style: italic;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 13px;
+}
+
+input[type="checkbox"] {
+    width: 12px;
+    height: 12px;
+}
+
+label {
+    font-family: 'Flama Basic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    color: #333333;
+
+}
+
+.formbox {
+    padding-right: 72px;
+}
